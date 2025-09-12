@@ -4,7 +4,7 @@ import Main from "../app/Home/Home";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#151E1B] h-[100vh] font-sans">
       <Main />
     </div>
   );
