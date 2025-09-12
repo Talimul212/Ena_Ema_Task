@@ -7,7 +7,7 @@ import dribble from "../assets/icon/icon-park-outline_dribble.png";
 
 export default function Footer() {
   return (
-    <div className=" bg-[#1FFFA5] absolute  bottom-0 w-[100vw] flex justify-around h-40 items-center">
+    <div className=" bg-[#1FFFA5]  relative  bottom-0 flex justify-around h-40 items-center">
       <img src={logo.src} alt="Logo" className="lg:w-40 md:w-24" />
       <div className="hidden lg:block md:block">
         © All rights reserved to Ena Ema Technologies
