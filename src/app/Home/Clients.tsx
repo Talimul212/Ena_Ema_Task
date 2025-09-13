@@ -1,5 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+"use client";
+import React from "react";
 import ReviewCard from "../Components/Cards/ReviewCard";
+import Carousal from "../Components/Carousal/Carousal";
 import ReviewerIcon1 from "../assets/Review_Icon/Ellipse 1.png";
 import ReviewerIcon2 from "../assets/Review_Icon/Ellipse 2.png";
 import ReviewerIcon3 from "../assets/Review_Icon/Ellipse 3.png";
@@ -27,13 +30,13 @@ export default function Clients(params: unknown) {
         "Best investment for my business. The ROI was immediate and substantial. Will definitely order again.",
       image: ReviewerIcon3,
     },
-    {
-      name: "David Lee",
-      title: "SaaS Founder",
-      quote:
-        "They delivered a landing page better than agencies charging 10x more. My conversion rate doubled within the first week!",
-      image: ReviewerIcon4,
-    },
+    // {
+    //   name: "David Lee",
+    //   title: "SaaS Founder",
+    //   quote:
+    //     "They delivered a landing page better than agencies charging 10x more. My conversion rate doubled within the first week!",
+    //   image: ReviewerIcon4,
+    // },
   ];
 
   return (

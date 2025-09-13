@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import sparkle from "../assets/icon/Sparkle.png";
 import EnvelopeSimpleOpen from "../assets/icon/EnvelopeSimpleOpen.png";
 import User from "../assets/icon/User.png";
@@ -10,7 +11,7 @@ import Button from "../Components/Button";
 export default function Banner() {
   return (
     <div className="flex justify-center items-center flex-col mt-20">
-      <div className="bg-[#192420] flex justify-center gap-2 py-2 px-4 border-t-[1px] border-t-[#1FFFA5] shadow rounded-full text-[#B2B2B2]">
+      <div className="bg-[#192420] z-50 flex justify-center gap-2 py-2 px-4 border-t-[1px] border-t-[#1FFFA5] shadow rounded-full text-[#B2B2B2]">
         <img src={sparkle.src} alt="sparkle" />
         <p className="text-sm">
           Trusted by 30+ startups & entrepreneurs worldwide
@@ -26,22 +27,22 @@ export default function Banner() {
         <br /> and launched in just 5 days.
       </div>
 
-      <div className="bg-[#151E1B] rounded-lg border-[#2A3C36] border-[1px] shadow-lg p-6 mt-15 p-9">
+      <div className="bg-[#151E1B] rounded-lg border-[#2A3C36] border-[1px] shadow-lg shadow-[#44fcb25e] mt-15 p-9 w-full md:w-auto mx-4 lg:mx-none">
         <form action="" className="">
-          <div className="flex justify-around gap-3">
+          <div className="flex flex-col md:flex-row justify-around gap-3 ">
             {/* Name Field */}
-            <div className="flex items-center border-2  rounded-sm border-[#2A3C36] px-4 py-2">
+            <div className="flex items-center border-2 rounded-sm border-[#2A3C36] px-4 py-2 focus-within:border-[#1FFFA5] transition duration-300">
               <img src={User.src} alt="" className="text-gray-500 mr-2" />
               <input
                 type="text"
                 id="name"
                 placeholder="Your Name"
-                className="w-full outline-none text-gray-800 placeholder-gray-500"
+                className="w-full outline-none text-white placeholder-gray-500"
               />
             </div>
 
             {/* Email Field */}
-            <div className="flex items-center  border-2  rounded-sm border-[#2A3C36] px-4 py-2">
+            <div className="flex items-center border-2 rounded-sm border-[#2A3C36] px-4 py-2 focus-within:border-[#1FFFA5] transition duration-300">
               <img
                 src={EnvelopeSimpleOpen.src}
                 alt=""
@@ -51,18 +52,18 @@ export default function Banner() {
                 type="email"
                 id="email"
                 placeholder="Email Address"
-                className="w-full outline-none text-gray-800 placeholder-gray-500"
+                className="w-full outline-none text-white placeholder-gray-500"
               />
             </div>
 
             {/* Phone Field */}
-            <div className="flex items-center  border-2  rounded-sm border-[#2A3C36] px-4 py-2">
+            <div className="flex items-center border-2 rounded-sm border-[#2A3C36] px-4 py-2 focus-within:border-[#1FFFA5] transition duration-300">
               <img src={Phone.src} alt="" className="text-gray-500 mr-2" />
               <input
                 type="number"
                 id="phoneNumber"
                 placeholder="Phone Number"
-                className="w-full outline-none text-gray-800 bg-none placeholder-gray-500"
+                className="w-full outline-none  text-white placeholder-gray-500 [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
               />
             </div>
           </div>

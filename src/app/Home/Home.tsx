@@ -8,6 +8,7 @@ import Pricing from "./Pricing";
 import Visitors from "./Visitors";
 import Progress from "./Progress";
 import Clients from "./Clients";
+import QAndAPage from "./QAndAPage";
 export default function Main() {
   return (
     <div className="">
@@ -19,6 +20,7 @@ export default function Main() {
       <Pricing />
       <Progress />
       <Clients />
+      <QAndAPage />
       <Visitors />
       <Footer />
     </div>

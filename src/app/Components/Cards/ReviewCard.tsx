@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/image";
 
 /* eslint-disable @next/next/no-img-element */
+
 type ReviewCardType = {
   name: string;
   title: string;
