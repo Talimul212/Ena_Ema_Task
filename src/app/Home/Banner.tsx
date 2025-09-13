@@ -2,10 +2,10 @@ import sparkle from "../assets/icon/Sparkle.png";
 import EnvelopeSimpleOpen from "../assets/icon/EnvelopeSimpleOpen.png";
 import User from "../assets/icon/User.png";
 import Phone from "../assets/icon/Phone.png";
-import ArrowRight from "../assets/icon/ArrowRight.png";
 import Star from "../assets/icon/Star.png";
 import Check from "../assets/icon/Check.png";
 import Lock from "../assets/icon/Lock.png";
+import Button from "../Components/Button";
 
 export default function Banner() {
   return (
@@ -68,15 +68,11 @@ export default function Banner() {
           </div>
 
           {/* Submit Button */}
-          <button
-            type="submit"
-            className="w-full shadow-inner shadow-cyan-50  mt-5 bg-[#1FFFA5]  text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-2 transition"
-          >
-            Get my high-converting landing page{" "}
-            <span>
-              <img src={ArrowRight.src} alt="" className="text-gray-500 mr-2" />
-            </span>
-          </button>
+          <Button
+            color={""}
+            title={"Get my high-converting landing page"}
+            width={"w-full"}
+          />
         </form>
       </div>
       {/* Trust Badges */}

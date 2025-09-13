@@ -4,6 +4,8 @@ import Banner from "./Banner";
 import Advertice from "./AdvertisePage";
 import Services from "./Services";
 import CaseStudies from "./CaseStudies";
+import Pricing from "./Pricing";
+import Visitors from "./Visitors";
 export default function Main() {
   return (
     <div className="">
@@ -12,6 +14,8 @@ export default function Main() {
       <Advertice />
       <Services />
       <CaseStudies />
+      <Pricing />
+      <Visitors />
       <Footer />
     </div>
   );
