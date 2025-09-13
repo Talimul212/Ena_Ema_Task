@@ -42,7 +42,7 @@ const pricingPlans = [
 ];
 export default function Pricing(params: unknown) {
   return (
-    <div className="bg-[#0A0F0D] px-20 pt-30 mt-[2px] ">
+    <div className="bg-[#0A0F0D] px-20 pt-30 mt-[2px] pb-28">
       <div>
         <div className="text-[50px] font-[manrope] leading-[4rem]  tracking-tighter text-white font-bold text-start">
           Simple, Transparent Pricing —

@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: "General Sans", sans-serif;
 }
+
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content {
+  display: inline-flex;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-360%);
+  }
+}

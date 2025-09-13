@@ -6,6 +6,8 @@ import Services from "./Services";
 import CaseStudies from "./CaseStudies";
 import Pricing from "./Pricing";
 import Visitors from "./Visitors";
+import Progress from "./Progress";
+import Clients from "./Clients";
 export default function Main() {
   return (
     <div className="">
@@ -15,6 +17,8 @@ export default function Main() {
       <Services />
       <CaseStudies />
       <Pricing />
+      <Progress />
+      <Clients />
       <Visitors />
       <Footer />
     </div>
