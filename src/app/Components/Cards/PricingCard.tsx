@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Ellipse from "../assets/icon/Ellipse 2.png"; // Replace with your actual check icon
-import Button from "../Components/Button";
+import Ellipse from "../../assets/icon/Ellipse 2.png"; // Replace with your actual check icon
+import Button from "../Button";
 
 type PricingCardType = {
   title: string;

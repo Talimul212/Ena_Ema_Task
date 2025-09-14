@@ -1,5 +1,5 @@
-import PricingCard from "../Components/PricingCard";
-import SpecialCard from "../Components/SpecialCard";
+import PricingCard from "../Components/Cards/PricingCard";
+import SpecialCard from "../Components/Cards/SpecialCard";
 const pricingPlans = [
   {
     title: "Basic",

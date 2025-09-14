@@ -1,4 +1,4 @@
-import Card from "../Components/Card";
+import Card from "../Components/Cards/Card";
 import Trophy from "../assets/Cardicon/Trophy.png";
 import RocketLaunch from "../assets/Cardicon/RocketLaunch.png";
 import Palette from "../assets/Cardicon/Palette.png";

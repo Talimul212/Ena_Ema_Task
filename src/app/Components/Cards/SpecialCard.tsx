@@ -1,5 +1,5 @@
-import Lightning from "../assets/Cardicon/Lightning.png";
-import Button from "./Button";
+import Lightning from "../../assets/Cardicon/Lightning.png";
+import Button from "../Button";
 export default function SpecialCard(params: unknown) {
   return (
     <div className="mt-12">
