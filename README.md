@@ -1,37 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Ena Ema — Strategic Landing Pages That Convert
 
-## Getting Started
+Premium, conversion-focused landing pages designed, developed, and deployed in just **5 days** — starting at **$200**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📦 What’s Inside
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This repo contains the full source code for the Ena Ema landing page service, including:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ Hero section with inline lead form
+- ✅ Social proof and trust badges
+- ✅ Conversion-optimized portfolio showcase
+- ✅ Transparent pricing cards
+- ✅ Animated marquee and testimonials
+- ✅ Responsive design with Tailwind CSS
+- ✅ Sticky WhatsApp CTA for instant contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Why Ena Ema?
 
-To learn more about Next.js, take a look at the following resources:
+- 🚀 **Proven Conversion Framework** — Based on 100+ tested layouts
+- 🎨 **Agency-Level Design** — Tailored for your brand
+- ⚡ **5-Day Guaranteed Delivery** — Or 20% refund
+- 💸 **Transparent Pricing** — No hidden fees
+- 🔄 **Unlimited Revisions** — Until you're 100% satisfied
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💰 Pricing Plans
 
-## Deploy on Vercel
+| Plan         | Price | Features                                                                   |
+| ------------ | ----- | -------------------------------------------------------------------------- |
+| **Basic**    | $200  | 1 Landing Page, Hosting Deployment, 5-Day Delivery                         |
+| **Standard** | $300  | Everything in Basic + Custom Section + Free Hosting Setup                  |
+| **Premium**  | $500  | Everything in Standard + Animations + Priority Delivery + 6 Months Support |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Ena_Ema_Task
+## 📈 Results That Speak
+
+> “They delivered a landing page better than agencies charging 10x more.” — SaaS Founder  
+> “My conversions doubled in the first week.” — Fitness Coach  
+> “Best investment for my business.” — E-commerce Owner
+
+---
+
+## 📋 How to Use
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/your-username/ena-ema.git
+   cd ena-ema
+   ```
