@@ -41,7 +41,7 @@ export default function Clients(params: unknown) {
 
   return (
     <div className="bg-[#192420] py-20">
-      <div className="ms:ms-20 ms-8">
+      <div className="md:ms-20 ms-8">
         <div className="md:text-[50px] text-[36px] font-[manrope] leading-[4rem]  tracking-tighter text-white font-bold text-start">
           What Our Clients Are Saying
           <span className="text-[#1FFFA5]"> About Us</span>
