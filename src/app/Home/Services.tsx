@@ -1,3 +1,8 @@
+"use client";
+
+import { motion, useAnimation } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import Card from "../Components/Cards/Card";
 import Trophy from "../assets/Cardicon/Trophy.png";
 import RocketLaunch from "../assets/Cardicon/RocketLaunch.png";
@@ -5,6 +10,7 @@ import Palette from "../assets/Cardicon/Palette.png";
 import Lightning from "../assets/Cardicon/Lightning.png";
 import ArrowsClockwise from "../assets/Cardicon/ArrowsClockwise.png";
 import CurrencyDollar from "../assets/Cardicon/CurrencyDollar.png";
+
 export default function Services() {
   const features = [
     {
@@ -45,8 +51,25 @@ export default function Services() {
     },
   ];
 
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ threshold: 0.3 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({ opacity: 1, y: 0 });
+    } else {
+      controls.start({ opacity: 0, y: 100 });
+    }
+  }, [inView, controls]);
+
   return (
-    <div className="flex flex-col justify-center items-center md:mt-0 mt-[-60px] ">
+    <motion.div
+      ref={ref}
+      animate={controls}
+      initial={{ opacity: 0, y: 100 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      className="flex flex-col justify-center items-center md:mt-0 mt-[-60px]"
+    >
       <div className="mb-10 text-center">
         <p className="text-[50px] font-[monrope] font-medium text-[#F5F5F5] lg:px-none md:px-20 leading-tight">
           Why Businesses <span className="text-[#1FFFA5]">Trust Us </span>
@@ -58,7 +81,7 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-3 gap-6 lg:px-none px-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 lg:px-none px-10">
         {features.map((item, index) => (
           <Card
             key={index}
@@ -68,6 +91,6 @@ export default function Services() {
           />
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
