@@ -21,9 +21,9 @@ export default function Visitors(params: unknown) {
         </p>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <div className="bg-[#151E1B]  rounded-lg border-[#2A3C36] border-[1px]   p-9 shadow-lg shadow-[#44fcb25e]">
+        <div className="bg-[#151E1B]  rounded-lg border-[#2A3C36] border-[1px]   p-9 shadow-lg shadow-[#44fcb25e]  md:w-[55%] w-[95%]  md:mx-auto">
           <form action="" className="">
-            <div className="flex justify-around gap-3">
+            <div className="flex flex-col md:flex-row justify-around gap-3">
               {/* Name Field */}
               <div className="flex items-center border-2 rounded-sm border-[#2A3C36] px-4 py-2 focus-within:border-[#1FFFA5] transition duration-300">
                 <img src={User.src} alt="" className="text-gray-500 mr-2" />

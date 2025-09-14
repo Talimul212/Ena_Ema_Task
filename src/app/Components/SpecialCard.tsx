@@ -17,7 +17,7 @@ export default function SpecialCard(params: unknown) {
       </div>
       <div className="bg-[#192420] rounded-[16px] mt-12 py-12 flex flex-col justify-center items-center">
         <div>
-          <p className="text-[48px] font-[manrope] leading-[4rem]  tracking-tighter text-white font-bold text-center">
+          <p className="md:text-[48px] text-[28px]  font-[manrope] leading-[4rem]  tracking-tighter md:text-white text-[#1FFFA5] font-bold text-center">
             Special Offer For Early Clients
           </p>
           <div className="font-sans mt-2 font-extralight text-[#F5F5F5] text-lg text-center">
@@ -27,7 +27,7 @@ export default function SpecialCard(params: unknown) {
         <Button
           title={"Claim my 10% discount"}
           color={""}
-          width={"w-auto px-4 mt-12 mb-2"}
+          width={"w-auto px-4 mt-12 mb-2 "}
         />
       </div>
     </div>

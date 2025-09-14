@@ -19,7 +19,7 @@ export default function PricingCard(params: PricingCardType) {
 
   return (
     <div
-      className={`relative bg-[#1A1A1A] rounded-2xl p-7  w-[425px] max-w-sm border-[2px] ${
+      className={`relative bg-[#1A1A1A] rounded-2xl p-7  lg:w-[425px] md:w-[100%] lg:max-w-sm border-[2px] ${
         isPopular ? "border-[#1FFFA5] shadow-lg" : "border-[#333]"
       }`}
     >

@@ -46,19 +46,19 @@ export default function Services() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center ">
+    <div className="flex flex-col justify-center items-center md:mt-0 mt-[-60px] ">
       <div className="mb-10 text-center">
-        <p className="text-[50px] font-[monrope] font-medium text-[#F5F5F5] leading-tight">
+        <p className="text-[50px] font-[monrope] font-medium text-[#F5F5F5] lg:px-none md:px-20 leading-tight">
           Why Businesses <span className="text-[#1FFFA5]">Trust Us </span>
           With Their Designs
         </p>
-        <p className="text-[16px] text-[#F5F5F5] mt-5 font-[200]">
+        <p className="text-[16px] text-[#F5F5F5] mt-5 font-[200] lg:px-none md:px-20">
           We combine proven conversion frameworks with agency-level design to
           deliver results that matter.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-3 gap-6 lg:px-none px-10">
         {features.map((item, index) => (
           <Card
             key={index}

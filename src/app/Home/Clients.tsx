@@ -41,8 +41,8 @@ export default function Clients(params: unknown) {
 
   return (
     <div className="bg-[#192420] py-20">
-      <div className="ms-20">
-        <div className="text-[50px] font-[manrope] leading-[4rem]  tracking-tighter text-white font-bold text-start">
+      <div className="ms:ms-20 ms-8">
+        <div className="md:text-[50px] text-[36px] font-[manrope] leading-[4rem]  tracking-tighter text-white font-bold text-start">
           What Our Clients Are Saying
           <span className="text-[#1FFFA5]"> About Us</span>
         </div>
@@ -51,7 +51,7 @@ export default function Clients(params: unknown) {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 px-6 sm:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 sm:px-20">
         {reviews.map((review, index) => (
           <ReviewCard key={index} {...review} />
         ))}

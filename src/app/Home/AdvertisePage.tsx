@@ -6,7 +6,7 @@ import frame4 from "../assets/image 4.png";
 import frame5 from "../assets//Size=Default.png";
 export default function Advertice(params: unknown) {
   return (
-    <div className="my-20">
+    <div className="md:my-20 mt-20">
       <div className="overflow-hidden whitespace-nowrap">
         <div className="marquee-track">
           <div className="marquee-content">
@@ -15,7 +15,7 @@ export default function Advertice(params: unknown) {
                 key={`original-${index}`}
                 src={frame.src}
                 alt=""
-                className="inline-block mx-4 rounded-2xl w-[748px] h-[470px]"
+                className="inline-block mx-4 rounded-2xl md:w-[748px] md:h-[470px] h-[300px]"
               />
             ))}
             {[frame1, frame2, frame3, frame4, frame5].map((frame, index) => (

@@ -55,7 +55,7 @@ export default function CaseStudies() {
 
   return (
     <div className="bg-[#0A0F0D] mt-20">
-      <div className="mb-10 text-center pt-20">
+      <div className="md:mb-10 text-center pt-20">
         <p className="text-[40px] font-[monrope] font-medium text-[#F5F5F5] leading-tight">
           Case Studies
         </p>
@@ -65,22 +65,34 @@ export default function CaseStudies() {
       </div>
 
       {/* Embla Carousel */}
-      <div className="embla">
-        <div className="embla__viewport" ref={emblaRef}>
-          <div className="embla__container">
-            {studies.map((study, index) => (
-              <div className="embla__slide px-4" key={index}>
-                <Carousel
-                  image={study.image}
-                  title={study.title}
-                  metrics={study.metrics}
-                />
-              </div>
-            ))}
+      <div className="hidden md:block">
+        <div className="embla ">
+          <div className="embla__viewport" ref={emblaRef}>
+            <div className="embla__container">
+              {studies.map((study, index) => (
+                <div className="embla__slide px-4" key={index}>
+                  <Carousel
+                    image={study.image}
+                    title={study.title}
+                    metrics={study.metrics}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-
+      <div className="md:hidden flex flex-col items-center gap-5">
+        {studies.map((study, index) => (
+          <div className="px-4" key={index}>
+            <Carousel
+              image={study.image}
+              title={study.title}
+              metrics={study.metrics}
+            />
+          </div>
+        ))}
+      </div>
       <div className="flex justify-center mt-10 pb-24">
         <Button
           color={""}

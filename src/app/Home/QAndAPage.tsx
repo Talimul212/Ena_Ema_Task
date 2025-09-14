@@ -38,7 +38,7 @@ export default function QAndAPage(params: unknown) {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-1 px-16 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:px-16 gap-6 max-w-5xl mx-auto">
         {faqs.map((faq, index) => (
           <Q_and_ACard key={index} {...faq} />
         ))}

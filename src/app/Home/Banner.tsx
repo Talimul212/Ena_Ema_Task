@@ -17,17 +17,17 @@ export default function Banner() {
           Trusted by 30+ startups & entrepreneurs worldwide
         </p>
       </div>
-      <div className="text-[72px] font-[manrope] leading-[4rem] mt-5 tracking-tighter text-white font-bold text-center">
-        Strategic Landing Pages That <br /> Convert From Just{" "}
+      <div className="lg:text-[72px] md:text-[60px] text-[36px] font-[manrope] leading-9 md:leading-[4rem] mt-5 md:tracking-tighter  text-white font-bold text-center lg:px-44 px-10">
+        Strategic Landing Pages That Convert From Just{" "}
         <span className="text-[#1FFFA5]">$200</span>
       </div>
-      <div className="font-sans mt-5  font-extralight text-[#F5F5F5] text-lg text-center">
+      <div className="font-sans mt-5  font-extralight  lg:px-60 md:px-18 px-10 text-[#F5F5F5] md:text-lg text-sm text-center">
         Stop wasting traffic on generic pages. We deliver premium,
-        conversion-focused landing pages designed, developed,
-        <br /> and launched in just 5 days.
+        conversion-focused landing pages designed, developed, and launched in
+        just 5 days.
       </div>
 
-      <div className="bg-[#151E1B] rounded-lg border-[#2A3C36] border-[1px] shadow-lg shadow-[#44fcb25e] mt-15 p-9 w-full md:w-auto mx-4 lg:mx-none">
+      <div className="bg-[#151E1B] rounded-lg border-[#2A3C36] border-[1px] shadow-lg shadow-[#44fcb25e] mt-15 p-9 w-[90%]  lg:w-[55%] md:w-[75%]   md:mx-auto">
         <form action="" className="">
           <div className="flex flex-col md:flex-row justify-around gap-3 ">
             {/* Name Field */}
@@ -77,8 +77,8 @@ export default function Banner() {
         </form>
       </div>
       {/* Trust Badges */}
-      <div className="flex justify- gap-18 items-center text-[12px] mt-6 mb-5 font-medium text-[#B2B2B2] ">
-        <div className="flex items-center gap-1">
+      <div className="flex justify-center sm:px-2 md:gap-18  items-center text-[12px] mt-6 mb-5 font-medium text-[#B2B2B2] ">
+        <div className="flex items-center  gap-1">
           <span>
             {" "}
             <img src={Lock.src} alt="Lock" />

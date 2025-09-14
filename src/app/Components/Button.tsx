@@ -15,7 +15,8 @@ export default function Button(params: ButtonPross) {
           className={` ${params?.width} shadow-inner  mt-5 bg-[#003D25] transition-all 
   duration-400 
   hover:rounded-2xl 
-  hover:gap-3   text-[#00E58A] font-normal py-3 rounded-lg flex items-center justify-center gap-2 `}
+  hover:gap-3   md:text-[15px] 
+  text-[12px]  text-[#00E58A] font-normal py-3 rounded-lg flex items-center justify-center gap-2 `}
         >
           {params?.title}
           <span>
@@ -45,8 +46,9 @@ export default function Button(params: ButtonPross) {
   transition-all 
   duration-400 
   hover:rounded-2xl 
-  hover:gap-3 
-  
+  hover:gap-3
+  md:text-[15px] 
+  text-[12px]
   shadow-inner 
 
    shadow-[#ffffff8a]

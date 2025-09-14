@@ -42,9 +42,9 @@ const pricingPlans = [
 ];
 export default function Pricing(params: unknown) {
   return (
-    <div className="bg-[#0A0F0D] px-20 pt-30 mt-[2px] pb-28">
+    <div className="bg-[#0A0F0D] md:px-20 px-5 md:pt-30 pt-20 md:mt-[2px] mt-[10px] pb-28">
       <div>
-        <div className="text-[50px] font-[manrope] leading-[4rem]  tracking-tighter text-white font-bold text-start">
+        <div className="md:text-[50px] text-[40px] font-[manrope] leading-[4rem]  tracking-tighter text-white font-bold text-start">
           Simple, Transparent Pricing —
           <span className="text-[#1FFFA5]"> Choose Your Plan</span>
         </div>
@@ -53,7 +53,7 @@ export default function Pricing(params: unknown) {
           prices.
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
+      <div className="flex lg:justify-between lg:flex-row md:flex-col flex-col   gap-6 mt-10">
         {pricingPlans.map((plan, index) => (
           <PricingCard key={index} index={index} {...plan} />
         ))}
